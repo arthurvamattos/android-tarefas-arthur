@@ -2,8 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:paddingTop="30dp">
+    android:orientation="vertical">
 
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
@@ -44,6 +43,7 @@
         android:id="@+id/btn_alterar"
         android:text="ALTERAR TAREFA"
         android:background="@color/colorAccent"
-        android:layout_margin="10dp"/>
+        android:layout_margin="10dp"
+        android:textColor="#fff"/>
 
 </LinearLayout>
